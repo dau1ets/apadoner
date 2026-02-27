@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ифтар в честь 8 Марта</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      padding: 50px 20px 30px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #d63384;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 5px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      color: #fff;
+      background-color: #d63384;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #b52b6c;
+    }
+
+    audio {
+      display: none;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    /* --- Фото девушек --- */
+    .photo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 30px 10px;
+    }
+
+    .photo-gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .photo-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Приглашаем на Ифтар 🎀</h1>
+    <p>В честь 8 Марта</p>
+    <p><strong>Дата:</strong> 5 марта</p>
+    <p><strong>Время:</strong> 17:00</p>
+    <p><strong>Место:</strong> ул. Примерная, 12, Тараз</p>
+  </header>
+
+  <!-- Кнопка RSVP / Тугис -->
+  <a class="btn" href="https://forms.gle/ВАША_ССЫЛКА" target="_blank">Я пойду!</a>
+
+  <!-- Кнопка 2GIS -->
+  <a class="btn" href="https://2gis.kz/taraz/firm/ВАША_ССЫЛКА_2GIS" target="_blank">Посмотреть на карте 🗺️</a>
+
+  <!-- Фото девушек -->
+  <div class="photo-gallery">
+    <img src="girl1.jpg" alt="Фото девушки 1">
+    <img src="girl2.jpg" alt="Фото девушки 2">
+    <img src="girl3.jpg" alt="Фото девушки 3">
+    <img src="girl4.jpg" alt="Фото девушки 4">
+  </div>
+
+  <!-- Музыка на фоне -->
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает аудио.
+  </audio>
+
+  <footer>
+    Сделано с ❤️ для наших девушек
+  </footer>
+
+</body>
+</html>
