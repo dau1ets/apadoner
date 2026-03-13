@@ -1,0 +1,121 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #F2E5D3;
+    background-image: url("doner_pattern.png"); /* путь к твоему фону */
+    background-repeat: repeat-x; /* фон больше не повторяется */
+    background-size: auto 100%; /* растянуть на весь экран */
+    background-position: top center; /* центрируем фон */
+
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+}
+
+.section-title-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-title {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #67321B;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.card {
+    background: #fff8f0;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;
+    width: 420px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.dot-box {
+    width: 120px;
+    height: 100px; /* чуть ниже, чем раньше */
+    background: #ddd;
+    border-radius: 12px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    flex: 1;
+    margin-left: 10px;
+}
+
+    .card-content h3 {
+        margin: 0 0 5px 0;
+        font-size: 18px;
+    }
+
+    .card-content .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+    .quantity-controls button {
+        width: 28px;
+        height: 28px;
+        border: none;
+        border-radius: 6px;
+        background: #67321B; /* коричневый фон */
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .quantity-controls span {
+        min-width: 24px;
+        text-align: center;
+        display: inline-block;
+    }
+
+.total-sum {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.order-all {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    font-size: 18px;
+    background: #67321B;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
